@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        bezierLayout.start(bezierViews[0]);
+                        bezierLayout.start(bezierViews[1]);
                     }
                 });
 
